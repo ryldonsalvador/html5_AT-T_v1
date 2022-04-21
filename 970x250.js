@@ -163,32 +163,44 @@ p.nominalBounds = new cjs.Rectangle(0,0,970,250);
 p.nominalBounds = new cjs.Rectangle(0,0,970,250);
 
 
-(lib.GIF_intro_whitelines_18 = function() {
-	this.initialize(img.GIF_intro_whitelines_18);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,970,250);
-
-
-(lib.GIF_intro_whitelines_19 = function() {
-	this.initialize(img.GIF_intro_whitelines_19);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,970,250);
-
-
-(lib.GIF_intro_whitelines_20 = function() {
-	this.initialize(img.GIF_intro_whitelines_20);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,970,250);
-
-
-(lib.GIF_intro_whitelines_21 = function() {
-	this.initialize(img.GIF_intro_whitelines_21);
-}).prototype = p = new cjs.Bitmap();
-p.nominalBounds = new cjs.Rectangle(0,0,970,250);
-
-
 (lib.GIF_intro_whitelines_22 = function() {
 	this.initialize(img.GIF_intro_whitelines_22);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,250);
+
+
+(lib.GIF_intro_whitelines_23 = function() {
+	this.initialize(img.GIF_intro_whitelines_23);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,250);
+
+
+(lib.GIF_intro_whitelines_24 = function() {
+	this.initialize(img.GIF_intro_whitelines_24);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,250);
+
+
+(lib.GIF_intro_whitelines_25 = function() {
+	this.initialize(img.GIF_intro_whitelines_25);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,250);
+
+
+(lib.GIF_intro_whitelines_26 = function() {
+	this.initialize(img.GIF_intro_whitelines_26);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,250);
+
+
+(lib.GIF_intro_whitelines_27 = function() {
+	this.initialize(img.GIF_intro_whitelines_27);
+}).prototype = p = new cjs.Bitmap();
+p.nominalBounds = new cjs.Rectangle(0,0,970,250);
+
+
+(lib.GIF_intro_whitelines_28 = function() {
+	this.initialize(img.GIF_intro_whitelines_28);
 }).prototype = p = new cjs.Bitmap();
 p.nominalBounds = new cjs.Rectangle(0,0,970,250);
 
@@ -430,27 +442,6 @@ if (reversed == null) { reversed = false; }
 	this._renderFirstFrame();
 
 }).prototype = getMCSymbolPrototype(lib.Symbol8, new cjs.Rectangle(0,0,591,94.5), null);
-
-
-(lib.Symbol2 = function(mode,startPosition,loop,reversed) {
-if (loop == null) { loop = true; }
-if (reversed == null) { reversed = false; }
-	var props = new Object();
-	props.mode = mode;
-	props.startPosition = startPosition;
-	props.labels = {};
-	props.loop = loop;
-	props.reversed = reversed;
-	cjs.MovieClip.apply(this,[props]);
-
-	// Layer_1
-	this.instance = new lib.GIF_intro_whitelines_22();
-
-	this.timeline.addTween(cjs.Tween.get(this.instance).wait(1));
-
-	this._renderFirstFrame();
-
-}).prototype = getMCSymbolPrototype(lib.Symbol2, new cjs.Rectangle(0,0,970,250), null);
 
 
 (lib.Symbol1 = function(mode,startPosition,loop,reversed) {
@@ -882,58 +873,65 @@ if (reversed == null) { reversed = false; }
 
 	this.timeline.addTween(cjs.Tween.get(this.instance_15).wait(21).to({_off:false},0).to({regX:295.9,regY:95.2,scaleX:0.6057,scaleY:0.6059,x:766.15,y:163.5},16,cjs.Ease.quadOut).wait(1).to({regX:295.5,regY:47.2,x:765.9,y:134.4},0).wait(12).to({regX:295.9,regY:95.2,x:766.15,y:163.5},0).wait(1).to({regX:295.5,regY:47.2,x:765.9,y:150.8},0).wait(1).to({y:164.3},0).wait(1).to({y:175.3},0).wait(1).to({y:183.95},0).wait(1).to({y:190.65},0).wait(1).to({y:195.5},0).wait(1).to({regX:295.9,regY:95.2,x:766.15,y:227.9},0).wait(49));
 
-	// Layer_8
-	this.instance_16 = new lib.GIF_intro_whitelines_18();
+	// Layer_1
+	this.instance_16 = new lib.GIF_intro_whitelines_22();
+	this.instance_16.setTransform(0,1);
 
-	this.instance_17 = new lib.GIF_intro_whitelines_19();
+	this.instance_17 = new lib.GIF_intro_whitelines_23();
+	this.instance_17.setTransform(0,1);
 
-	this.instance_18 = new lib.GIF_intro_whitelines_20();
+	this.instance_18 = new lib.GIF_intro_whitelines_24();
+	this.instance_18.setTransform(0,1);
 
-	this.instance_19 = new lib.GIF_intro_whitelines_21();
+	this.instance_19 = new lib.GIF_intro_whitelines_25();
+	this.instance_19.setTransform(0,1);
 
-	this.instance_20 = new lib.GIF_intro_whitelines_22();
+	this.instance_20 = new lib.GIF_intro_whitelines_26();
+	this.instance_20.setTransform(0,1);
 
-	this.instance_21 = new lib.Symbol2();
-	this.instance_21.setTransform(485,125,1,1,0,0,0,485,125);
-	this.instance_21.alpha = 0;
+	this.instance_21 = new lib.GIF_intro_whitelines_27();
+	this.instance_21.setTransform(0,1);
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},19).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).wait(82));
+	this.instance_22 = new lib.GIF_intro_whitelines_28();
+	this.instance_22.setTransform(0,1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[]}).to({state:[{t:this.instance_16}]},19).to({state:[{t:this.instance_17}]},1).to({state:[{t:this.instance_18}]},1).to({state:[{t:this.instance_19}]},1).to({state:[{t:this.instance_20}]},1).to({state:[{t:this.instance_21}]},1).to({state:[{t:this.instance_22}]},1).to({state:[]},1).wait(80));
 
 	// Layer_7
-	this.instance_22 = new lib.GIF_intro_only_01();
+	this.instance_23 = new lib.GIF_intro_only_01();
 
-	this.instance_23 = new lib.GIF_intro_only_02();
+	this.instance_24 = new lib.GIF_intro_only_02();
 
-	this.instance_24 = new lib.GIF_intro_only_03();
+	this.instance_25 = new lib.GIF_intro_only_03();
 
-	this.instance_25 = new lib.GIF_intro_only_04();
+	this.instance_26 = new lib.GIF_intro_only_04();
 
-	this.instance_26 = new lib.GIF_intro_only_05();
+	this.instance_27 = new lib.GIF_intro_only_05();
 
-	this.instance_27 = new lib.GIF_intro_only_06();
+	this.instance_28 = new lib.GIF_intro_only_06();
 
-	this.instance_28 = new lib.GIF_intro_only_07();
+	this.instance_29 = new lib.GIF_intro_only_07();
 
-	this.instance_29 = new lib.GIF_intro_only_08();
+	this.instance_30 = new lib.GIF_intro_only_08();
 
-	this.instance_30 = new lib.GIF_intro_only_09();
+	this.instance_31 = new lib.GIF_intro_only_09();
 
-	this.instance_31 = new lib.GIF_intro_only_10();
+	this.instance_32 = new lib.GIF_intro_only_10();
 
-	this.instance_32 = new lib.GIF_intro_only_11();
+	this.instance_33 = new lib.GIF_intro_only_11();
 
-	this.instance_33 = new lib.GIF_intro_only_12();
+	this.instance_34 = new lib.GIF_intro_only_12();
 
-	this.instance_34 = new lib.GIF_intro_only_13();
+	this.instance_35 = new lib.GIF_intro_only_13();
 
-	this.instance_35 = new lib.GIF_intro_only_14();
+	this.instance_36 = new lib.GIF_intro_only_14();
 
-	this.instance_36 = new lib.Symbol1();
-	this.instance_36.setTransform(500,125,1,1,0,0,0,485,125);
-	this.instance_36._off = true;
+	this.instance_37 = new lib.Symbol1();
+	this.instance_37.setTransform(500,125,1,1,0,0,0,485,125);
+	this.instance_37._off = true;
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_22}]}).to({state:[{t:this.instance_23}]},1).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_36}]},20).to({state:[{t:this.instance_36}]},71).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_36).wait(14).to({_off:false},0).to({x:303},20,cjs.Ease.quadInOut).to({regX:484.9,regY:125.1,scaleX:1.0464,scaleY:1.0462,x:326.05,y:130.9},71).wait(1));
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_23}]}).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_37}]},20).to({state:[{t:this.instance_37}]},71).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_37).wait(14).to({_off:false},0).to({x:303},20,cjs.Ease.quadInOut).to({regX:484.9,regY:125.1,scaleX:1.0464,scaleY:1.0462,x:326.05,y:130.9},71).wait(1));
 
 	this._renderFirstFrame();
 
@@ -948,35 +946,37 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"arcade_fire_big.png?1650564986476", id:"arcade_fire_big"},
-		{src:"arcade_fire_small.png?1650564986476", id:"arcade_fire_small"},
-		{src:"arcade_fireandmore.png?1650564986476", id:"arcade_fireandmore"},
-		{src:"ball.png?1650564986476", id:"ball"},
-		{src:"block_logo.png?1650564986476", id:"block_logo"},
-		{src:"copy1.png?1650564986476", id:"copy1"},
-		{src:"cta_bg.png?1650564986476", id:"cta_bg"},
-		{src:"date.png?1650564986476", id:"date"},
-		{src:"GIF_intro_only_01.jpg?1650564986476", id:"GIF_intro_only_01"},
-		{src:"GIF_intro_only_02.jpg?1650564986476", id:"GIF_intro_only_02"},
-		{src:"GIF_intro_only_03.jpg?1650564986476", id:"GIF_intro_only_03"},
-		{src:"GIF_intro_only_04.jpg?1650564986476", id:"GIF_intro_only_04"},
-		{src:"GIF_intro_only_05.jpg?1650564986476", id:"GIF_intro_only_05"},
-		{src:"GIF_intro_only_06.jpg?1650564986476", id:"GIF_intro_only_06"},
-		{src:"GIF_intro_only_07.jpg?1650564986476", id:"GIF_intro_only_07"},
-		{src:"GIF_intro_only_08.jpg?1650564986476", id:"GIF_intro_only_08"},
-		{src:"GIF_intro_only_09.jpg?1650564986476", id:"GIF_intro_only_09"},
-		{src:"GIF_intro_only_10.jpg?1650564986476", id:"GIF_intro_only_10"},
-		{src:"GIF_intro_only_11.jpg?1650564986476", id:"GIF_intro_only_11"},
-		{src:"GIF_intro_only_12.jpg?1650564986476", id:"GIF_intro_only_12"},
-		{src:"GIF_intro_only_13.jpg?1650564986476", id:"GIF_intro_only_13"},
-		{src:"GIF_intro_only_14.jpg?1650564986476", id:"GIF_intro_only_14"},
-		{src:"GIF_intro_only_17.jpg?1650564986476", id:"GIF_intro_only_17"},
-		{src:"GIF_intro_whitelines_18.png?1650564986476", id:"GIF_intro_whitelines_18"},
-		{src:"GIF_intro_whitelines_19.png?1650564986476", id:"GIF_intro_whitelines_19"},
-		{src:"GIF_intro_whitelines_20.png?1650564986476", id:"GIF_intro_whitelines_20"},
-		{src:"GIF_intro_whitelines_21.png?1650564986476", id:"GIF_intro_whitelines_21"},
-		{src:"GIF_intro_whitelines_22.png?1650564986476", id:"GIF_intro_whitelines_22"},
-		{src:"learnmore.png?1650564986476", id:"learnmore"}
+		{src:"arcade_fire_big.png?1650567391990", id:"arcade_fire_big"},
+		{src:"arcade_fire_small.png?1650567391990", id:"arcade_fire_small"},
+		{src:"arcade_fireandmore.png?1650567391990", id:"arcade_fireandmore"},
+		{src:"ball.png?1650567391990", id:"ball"},
+		{src:"block_logo.png?1650567391990", id:"block_logo"},
+		{src:"copy1.png?1650567391990", id:"copy1"},
+		{src:"cta_bg.png?1650567391990", id:"cta_bg"},
+		{src:"date.png?1650567391990", id:"date"},
+		{src:"GIF_intro_only_01.jpg?1650567391990", id:"GIF_intro_only_01"},
+		{src:"GIF_intro_only_02.jpg?1650567391990", id:"GIF_intro_only_02"},
+		{src:"GIF_intro_only_03.jpg?1650567391990", id:"GIF_intro_only_03"},
+		{src:"GIF_intro_only_04.jpg?1650567391990", id:"GIF_intro_only_04"},
+		{src:"GIF_intro_only_05.jpg?1650567391990", id:"GIF_intro_only_05"},
+		{src:"GIF_intro_only_06.jpg?1650567391990", id:"GIF_intro_only_06"},
+		{src:"GIF_intro_only_07.jpg?1650567391990", id:"GIF_intro_only_07"},
+		{src:"GIF_intro_only_08.jpg?1650567391990", id:"GIF_intro_only_08"},
+		{src:"GIF_intro_only_09.jpg?1650567391990", id:"GIF_intro_only_09"},
+		{src:"GIF_intro_only_10.jpg?1650567391990", id:"GIF_intro_only_10"},
+		{src:"GIF_intro_only_11.jpg?1650567391990", id:"GIF_intro_only_11"},
+		{src:"GIF_intro_only_12.jpg?1650567391990", id:"GIF_intro_only_12"},
+		{src:"GIF_intro_only_13.jpg?1650567391990", id:"GIF_intro_only_13"},
+		{src:"GIF_intro_only_14.jpg?1650567391990", id:"GIF_intro_only_14"},
+		{src:"GIF_intro_only_17.jpg?1650567391990", id:"GIF_intro_only_17"},
+		{src:"GIF_intro_whitelines_22.png?1650567391990", id:"GIF_intro_whitelines_22"},
+		{src:"GIF_intro_whitelines_23.png?1650567391990", id:"GIF_intro_whitelines_23"},
+		{src:"GIF_intro_whitelines_24.png?1650567391990", id:"GIF_intro_whitelines_24"},
+		{src:"GIF_intro_whitelines_25.png?1650567391990", id:"GIF_intro_whitelines_25"},
+		{src:"GIF_intro_whitelines_26.png?1650567391990", id:"GIF_intro_whitelines_26"},
+		{src:"GIF_intro_whitelines_27.png?1650567391990", id:"GIF_intro_whitelines_27"},
+		{src:"GIF_intro_whitelines_28.png?1650567391990", id:"GIF_intro_whitelines_28"},
+		{src:"learnmore.png?1650567391990", id:"learnmore"}
 	],
 	preloads: []
 };
