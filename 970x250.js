@@ -931,7 +931,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_37._off = true;
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_23}]}).to({state:[{t:this.instance_24}]},1).to({state:[{t:this.instance_25}]},1).to({state:[{t:this.instance_26}]},1).to({state:[{t:this.instance_27}]},1).to({state:[{t:this.instance_28}]},1).to({state:[{t:this.instance_29}]},1).to({state:[{t:this.instance_30}]},1).to({state:[{t:this.instance_31}]},1).to({state:[{t:this.instance_32}]},1).to({state:[{t:this.instance_33}]},1).to({state:[{t:this.instance_34}]},1).to({state:[{t:this.instance_35}]},1).to({state:[{t:this.instance_36}]},1).to({state:[{t:this.instance_37}]},1).to({state:[{t:this.instance_37}]},20).to({state:[{t:this.instance_37}]},71).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance_37).wait(14).to({_off:false},0).to({x:303},20,cjs.Ease.quadInOut).to({regX:484.9,regY:125.1,scaleX:1.0464,scaleY:1.0462,x:326.05,y:130.9},71).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance_37).wait(14).to({_off:false},0).to({x:303},20,cjs.Ease.quadIn).to({regX:484.9,regY:125.1,scaleX:1.0464,scaleY:1.0462,x:326.05,y:130.9},71,cjs.Ease.quadIn).wait(1));
 
 	this._renderFirstFrame();
 
@@ -946,37 +946,37 @@ lib.properties = {
 	color: "#000000",
 	opacity: 1.00,
 	manifest: [
-		{src:"arcade_fire_big.png?1650567391990", id:"arcade_fire_big"},
-		{src:"arcade_fire_small.png?1650567391990", id:"arcade_fire_small"},
-		{src:"arcade_fireandmore.png?1650567391990", id:"arcade_fireandmore"},
-		{src:"ball.png?1650567391990", id:"ball"},
-		{src:"block_logo.png?1650567391990", id:"block_logo"},
-		{src:"copy1.png?1650567391990", id:"copy1"},
-		{src:"cta_bg.png?1650567391990", id:"cta_bg"},
-		{src:"date.png?1650567391990", id:"date"},
-		{src:"GIF_intro_only_01.jpg?1650567391990", id:"GIF_intro_only_01"},
-		{src:"GIF_intro_only_02.jpg?1650567391990", id:"GIF_intro_only_02"},
-		{src:"GIF_intro_only_03.jpg?1650567391990", id:"GIF_intro_only_03"},
-		{src:"GIF_intro_only_04.jpg?1650567391990", id:"GIF_intro_only_04"},
-		{src:"GIF_intro_only_05.jpg?1650567391990", id:"GIF_intro_only_05"},
-		{src:"GIF_intro_only_06.jpg?1650567391990", id:"GIF_intro_only_06"},
-		{src:"GIF_intro_only_07.jpg?1650567391990", id:"GIF_intro_only_07"},
-		{src:"GIF_intro_only_08.jpg?1650567391990", id:"GIF_intro_only_08"},
-		{src:"GIF_intro_only_09.jpg?1650567391990", id:"GIF_intro_only_09"},
-		{src:"GIF_intro_only_10.jpg?1650567391990", id:"GIF_intro_only_10"},
-		{src:"GIF_intro_only_11.jpg?1650567391990", id:"GIF_intro_only_11"},
-		{src:"GIF_intro_only_12.jpg?1650567391990", id:"GIF_intro_only_12"},
-		{src:"GIF_intro_only_13.jpg?1650567391990", id:"GIF_intro_only_13"},
-		{src:"GIF_intro_only_14.jpg?1650567391990", id:"GIF_intro_only_14"},
-		{src:"GIF_intro_only_17.jpg?1650567391990", id:"GIF_intro_only_17"},
-		{src:"GIF_intro_whitelines_22.png?1650567391990", id:"GIF_intro_whitelines_22"},
-		{src:"GIF_intro_whitelines_23.png?1650567391990", id:"GIF_intro_whitelines_23"},
-		{src:"GIF_intro_whitelines_24.png?1650567391990", id:"GIF_intro_whitelines_24"},
-		{src:"GIF_intro_whitelines_25.png?1650567391990", id:"GIF_intro_whitelines_25"},
-		{src:"GIF_intro_whitelines_26.png?1650567391990", id:"GIF_intro_whitelines_26"},
-		{src:"GIF_intro_whitelines_27.png?1650567391990", id:"GIF_intro_whitelines_27"},
-		{src:"GIF_intro_whitelines_28.png?1650567391990", id:"GIF_intro_whitelines_28"},
-		{src:"learnmore.png?1650567391990", id:"learnmore"}
+		{src:"arcade_fire_big.png?1650568159230", id:"arcade_fire_big"},
+		{src:"arcade_fire_small.png?1650568159230", id:"arcade_fire_small"},
+		{src:"arcade_fireandmore.png?1650568159230", id:"arcade_fireandmore"},
+		{src:"ball.png?1650568159230", id:"ball"},
+		{src:"block_logo.png?1650568159230", id:"block_logo"},
+		{src:"copy1.png?1650568159230", id:"copy1"},
+		{src:"cta_bg.png?1650568159230", id:"cta_bg"},
+		{src:"date.png?1650568159230", id:"date"},
+		{src:"GIF_intro_only_01.jpg?1650568159230", id:"GIF_intro_only_01"},
+		{src:"GIF_intro_only_02.jpg?1650568159230", id:"GIF_intro_only_02"},
+		{src:"GIF_intro_only_03.jpg?1650568159230", id:"GIF_intro_only_03"},
+		{src:"GIF_intro_only_04.jpg?1650568159230", id:"GIF_intro_only_04"},
+		{src:"GIF_intro_only_05.jpg?1650568159230", id:"GIF_intro_only_05"},
+		{src:"GIF_intro_only_06.jpg?1650568159230", id:"GIF_intro_only_06"},
+		{src:"GIF_intro_only_07.jpg?1650568159230", id:"GIF_intro_only_07"},
+		{src:"GIF_intro_only_08.jpg?1650568159230", id:"GIF_intro_only_08"},
+		{src:"GIF_intro_only_09.jpg?1650568159230", id:"GIF_intro_only_09"},
+		{src:"GIF_intro_only_10.jpg?1650568159230", id:"GIF_intro_only_10"},
+		{src:"GIF_intro_only_11.jpg?1650568159230", id:"GIF_intro_only_11"},
+		{src:"GIF_intro_only_12.jpg?1650568159230", id:"GIF_intro_only_12"},
+		{src:"GIF_intro_only_13.jpg?1650568159230", id:"GIF_intro_only_13"},
+		{src:"GIF_intro_only_14.jpg?1650568159230", id:"GIF_intro_only_14"},
+		{src:"GIF_intro_only_17.jpg?1650568159230", id:"GIF_intro_only_17"},
+		{src:"GIF_intro_whitelines_22.png?1650568159230", id:"GIF_intro_whitelines_22"},
+		{src:"GIF_intro_whitelines_23.png?1650568159230", id:"GIF_intro_whitelines_23"},
+		{src:"GIF_intro_whitelines_24.png?1650568159230", id:"GIF_intro_whitelines_24"},
+		{src:"GIF_intro_whitelines_25.png?1650568159230", id:"GIF_intro_whitelines_25"},
+		{src:"GIF_intro_whitelines_26.png?1650568159231", id:"GIF_intro_whitelines_26"},
+		{src:"GIF_intro_whitelines_27.png?1650568159231", id:"GIF_intro_whitelines_27"},
+		{src:"GIF_intro_whitelines_28.png?1650568159231", id:"GIF_intro_whitelines_28"},
+		{src:"learnmore.png?1650568159231", id:"learnmore"}
 	],
 	preloads: []
 };
